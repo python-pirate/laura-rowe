@@ -1,2 +1,3 @@
-def foo():
+def max_min():
     return False
+    
