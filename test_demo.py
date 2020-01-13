@@ -1,11 +1,22 @@
 import random
 from demo import *
 
-def test_max_min():
+def test_max():
     arr = []
     for i in range(10):
         arr.append(random.randint(10, 99))
 
-    max = max_min(arr)
+    m = max(arr)
+
     for x in arr:
-        assert(max >= x)
+        assert(m >= x)
+
+def test_min():
+    arr = []
+    for i in range(10):
+        arr.append(random.randint(10, 99))
+
+    n = min(arr)
+
+    for x in arr:
+        assert(n <= x)
