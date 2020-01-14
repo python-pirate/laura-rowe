@@ -22,5 +22,3 @@ def test_min():
 
         for x in arr:
             assert(n <= x)
-
-##################################
