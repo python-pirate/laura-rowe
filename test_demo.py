@@ -2,21 +2,25 @@ import random
 from demo import *
 
 def test_max():
-    arr = []
-    for i in range(10):
-        arr.append(random.randint(10, 99))
+    for i in range(100):
+        arr = []
+        for j in range(10):
+            arr.append(random.randint(10, 99))
 
-    m = max(arr)
+        m = max(arr)
 
-    for x in arr:
-        assert(m >= x)
+        for x in arr:
+            assert(m >= x)
 
 def test_min():
-    arr = []
-    for i in range(10):
-        arr.append(random.randint(10, 99))
+    for i in range(100):
+        arr = []
+        for j in range(10):
+            arr.append(random.randint(10, 99))
 
-    n = min(arr)
+        n = min(arr)
 
-    for x in arr:
-        assert(n <= x)
+        for x in arr:
+            assert(n <= x)
+
+##################################

@@ -12,3 +12,6 @@ def min(arr):
         while(x < min):
             min = x
     return min
+
+
+#########################################
